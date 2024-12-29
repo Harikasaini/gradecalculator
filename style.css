@@ -1,0 +1,46 @@
+.container{
+    width:98vw;
+    height:98vh;
+    display:flex;
+    background-color: aquamarine;
+    align-items: center;
+    flex-direction: column;
+
+
+}
+.card{
+    height:400px;
+    width:60%;
+    display: flex;
+    border-radius: 10px;
+    
+}
+#marks{
+    border-radius: 10px;
+    height:400px;
+    width:55%;
+    background-color: rgb(235, 240, 211);
+    padding-left:70px; 
+    border: 1px solid black;
+    
+}
+
+#result{
+    border-radius: 10px;
+    height:400px;
+    width:40%;
+    background-color: rgb(246, 249, 158);
+    padding-left: 30px ;
+    border: 1px solid black;
+}
+.show-result{
+    height:50px;
+    width:40vw;
+    margin-top: 20px;
+    
+}
+#shoeresult{
+    text-align:center;
+   
+}
+

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grade Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Grade Calculator</h1>
+       
+        <div class="card">
+            <div id="result">
+                <h1 style="color:black">Result:</h1>
+                <br>
+                <h3 style="color:black">Total:<span id="total"></span></h3>
+                <br>
+                <h3 style="color:black">Percentage:<span id="percentage"></span></h3>
+                <br>
+                <h3 style="color:black">Grade:<span id="grade"></span></h3>
+            </div>     
+            <div id="marks">
+                <br>
+                <input type="tel" id="English" placeholder="English">
+                <br> 
+                <br>
+                <br>
+                <input type="tel"  id="Maths" placeholder="Maths"> 
+                <br>
+                <br>
+                <br>
+                <input type="tel"  id="Physics" placeholder="Physics"> 
+                <br>
+                <br>
+                <br>
+                <input type="tel" id="Java" placeholder="Java">
+                <br>
+                <br> 
+                <br>
+                <input type="tel"  id="C" placeholder="C"> 
+                <br>
+                <br>
+                <br>
+                <input type="tel"  id="Oracle" placeholder="Oracle"> 
+                <br> <br>
+                <button onclick="getResult()">Calculate Result</button>   
+            </div>
+        </div>
+        <div class="show-result">
+           <h1 id="showresult"></h1>
+ 
+         </div>
+        
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
